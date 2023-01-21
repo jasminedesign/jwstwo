@@ -1,0 +1,62 @@
+{  // JasmineWS.uk Snippets v1.0.0 | MIT License | Copyright 2023 JasmineDesign.com
+   // github.com/jasminedesign/jwsone | github.com/jasminedesign/jwstwo
+  "jwspage": {
+    "scope": "html",
+    "prefix": "jwspage",
+    "description": "A snippet to add page sections",
+    "body": [
+      "<header>",
+      "<h1>${1:heading1}</h1>",
+      "</header>",
+      "<main>",
+      "<div class=\"panel_full\">",
+      "<div class=\"\">",
+      "</div>",
+      "</div>",
+      "<div class=\"panel_full\">",
+      "<div class=\"\">",
+      "</div>",
+      "</div>",
+      "</main>",
+      "<footer>",
+      "<div class=\"social_icons\">",
+      "</div>",
+      "<div class=\"contact_panel\">",
+      "</div>",
+      "<div class=\"copyrights\">",
+      "<p>Copyright &copy; <time datetime=\"2023\">2023</time> </p>",
+      "</div>",
+      "</footer>"
+    ]
+},
+    "jwsnav": {
+      "scope": "html",
+      "prefix": "jwsnav",
+      "description": "A snippet to add navigation",
+      "body": [
+        "<nav>",
+        "<ul>",
+        "<li><a href=\"${1:url}\">${2:name}</a></li>",
+        "<li><a href=\"${3:url}\" class=\"active\">${4:name}</a></li>",
+        "<li><a href=\"${5:url}\">${6:name}</a></li>",
+        "</ul>",
+        "</nav>"
+      ]
+},
+    "jwsform": {
+      "scope": "html",
+      "prefix": "jwsform",
+      "description": "A snippet to add form",
+      "body": [
+        "<form>",
+        "<label for=\"name\">Label text<span class=\"required\">* </span></label>",
+        "<input type=\"text\"id=\"name\" name=\"name\" value=\"\">",
+        "<label for=\"comments\">Label text<span class=\"required\">* </span></label>",
+        "<textarea rows=\"5\" cols=\"20\" id=\"comments\" name=\"comments\"></textarea>",
+          "<button type=\"submit\" value=\"Submit\">Submit</button>",
+          "<p class=\"error\">This is a form Error Message.</p>",
+          "<p class=\"required\">* required field.</p>",
+        "</form>"
+    ]
+}
+}
