@@ -1,5 +1,15 @@
 {  // JasmineWS.uk Snippets v1.0.0 | MIT License | Copyright 2023 JasmineDesign.com
    // github.com/jasminedesign/jwsone | github.com/jasminedesign/jwstwo
+   "jwshead": {
+    "scope": "html",
+    "prefix": "jwshead",
+    "description": "A snippet to add head",
+    "body": [
+      "<meta name=\"description\" content=\"Your Description Here\">",
+      "<meta name=\"author\" content=\"Your Name Here\">",
+      "<link rel=\"stylesheet\" href=\"css/style.css\">",
+    ]
+},
   "jwspage": {
     "scope": "html",
     "prefix": "jwspage",
