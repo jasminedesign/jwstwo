@@ -5,9 +5,9 @@
     "prefix": "jwshead",
     "description": "A snippet to add head",
     "body": [
-      "<meta name=\"description\" content=\"Your Description Here\">",
-      "<meta name=\"author\" content=\"Your Name Here\">",
-      "<link rel=\"stylesheet\" href=\"css/style.css\">",
+      "<meta name=\"description\" content=\"${1:Your Description Here}\">",
+      "<meta name=\"author\" content=\"${2:Your Name Here}\">",
+      "<link rel=\"stylesheet\" href=\"../css/style.css\">",
     ]
 },
   "jwspage": {
@@ -46,9 +46,9 @@
       "body": [
         "<nav>",
         "<ul>",
-        "<li><a href=\"${1:url}\">${2:name}</a></li>",
-        "<li><a href=\"${3:url}\" class=\"active\">${4:name}</a></li>",
-        "<li><a href=\"${5:url}\">${6:name}</a></li>",
+        "<li><a href=\"../\">${1:name}</a></li>",
+        "<li><a href=\"../${2:url}\" class=\"active\">${3:name}</a></li>",
+        "<li><a href=\"../${4:url}\">${5:name}</a></li>",
         "</ul>",
         "</nav>"
       ]
