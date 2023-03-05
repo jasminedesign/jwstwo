@@ -3,6 +3,7 @@
 
 :root {
     --color-body-background: rgb(255, 255, 255);
+    --color-secondary-background: rgb(251, 248, 248);
     --color-text: rgb(70, 70, 70);
     --color-headings: rgb(9, 84, 57);
     --color-links: rgb(102, 51, 153);
@@ -31,6 +32,7 @@
 @media (prefers-color-scheme: dark) {
     :root {
         --color-body-background: rgb(13, 17, 23);
+        --color-secondary-background: rgb(22, 27, 34);
         --color-text: rgb(245, 245, 245);
         --color-headings: rgb(5, 223, 193);
         --color-links: rgb(255, 168, 98);
@@ -97,7 +99,7 @@ p {margin: 0 0 .5rem; word-wrap: break-word;}
 }
 .font_change { font-style: italic; font-weight: 600;}
 strong, b {font-weight: 600;}
-i, em, strong, sub, sup, var {font-style: italic;}
+i, em, sub, sup, var {font-style: italic;}
 sub {vertical-align: sub; font-size: smaller;}
 sup {vertical-align: super; font-size: smaller;}
 blockquote {
@@ -117,6 +119,9 @@ blockquote {
 hr { border: none; border-top: 1px solid var(--color-border); width: 100%;}
 details {padding: .5rem 0; border-bottom: solid 1px var(--color-border); margin-bottom: 1rem;}
 summary {color: var(--color-headings); font-family: var(--font-family-serif); font-weight: 600;}
+summary:focus {outline: medium dashed var(--color-border);}
+.bg_col {background-color: var(--color-secondary-background);}
+.padding1 {padding: 1rem;}
 
 /* ------ Address ------ */
 address {font-style: normal; display: flex; flex-direction: column;}
@@ -143,6 +148,7 @@ a {
 	cursor: pointer;
 }
 a:hover {text-decoration: none;}
+a:focus-visable {outline: medium dashed var(--color-border);}
 
 /* ------ Lists - ordered & unordered ------ */
 ul, ol {
@@ -343,11 +349,11 @@ header {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 2rem;
 }
 nav {
     display: flex;
     flex: 1;
+    min-width: 200px;
 }
 nav ul {
     display: flex;
@@ -378,13 +384,19 @@ nav a:hover {
 nav a:focus { 
     color: var(--color-two-nav-btn);
     background-color: var(--color-one-nav-btn);
-    text-decoration: none; 
+    text-decoration: none;
+    outline: unset; 
 }
-nav li .active {
+nav a[aria-current="page"],
+nav a:active {
     border: solid 1px rgb(223, 112, 22);
     font-weight: 600;
 }
-
+@media screen and (max-width: 900px) {
+    nav {
+        min-width: 350px;
+    }
+}
 /* -------------------- Main section -------------------- */
 main {
     grid-column: 1 / 2;
@@ -408,17 +420,28 @@ main {
 .panel_half {
     display: flex;
     flex-direction: column;
-    flex:0 1 47%;
+    flex:1 1 47%;
 }
 .panel_third {
     display: flex;
     flex-direction: column;
-    flex:0 1 32%;
+    flex:1 1 32%;
 }
 .panel_two_thirds {
     display: flex;
     flex-direction: column;
+    flex:1 1 62%;
+}
+@media screen and (min-width: 768px) {
+    .panel_half {
+    flex:0 1 47%;
+}
+.panel_third {
+    flex:0 1 32%;
+}
+.panel_two_thirds {
     flex:0 1 62%;
+}
 }
 /* -------- Text Panels (100% across in mobile) -------- */
 
