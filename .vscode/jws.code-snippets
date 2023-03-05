@@ -47,7 +47,7 @@
         "<nav>",
         "<ul>",
         "<li><a href=\"../\">${1:name}</a></li>",
-        "<li><a href=\"../${2:url}\" class=\"active\">${3:name}</a></li>",
+        "<li><a href=\"../${2:url}\" aria-current=\"page\">${3:name}</a></li>",
         "<li><a href=\"../${4:url}\">${5:name}</a></li>",
         "</ul>",
         "</nav>"
