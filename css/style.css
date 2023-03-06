@@ -26,7 +26,6 @@
     --font-family-code: ui-monospace, Consolas, Monaco, SFMono-Regular, SF Mono, Menlo, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Mono", "Source Code Pro", "Fira Mono", "Droid Sans Mono", monospace;
     --font-family-serif: 'Palatino', Georgia, serif;
     --icon-hover: drop-shadow(2px 2px 3px rgb(104, 142, 163));
-    
 }
 
 @media (prefers-color-scheme: dark) {
@@ -52,8 +51,8 @@
         --icon-hover:  opacity(0.2);
     }
     .social_icons img {
-    filter: invert(1);
-}
+        filter: invert(1);
+    }
 }
 
 *, *:after, *:before { box-sizing: border-box; }
@@ -78,9 +77,9 @@ body {
 /* ------ Typography ------ */
 h1, h2, h3, h4, h5, h6 {
     margin: .5rem 0;
-    padding: 0;
     color: var(--color-headings);
     text-align: center;
+    font-weight: 700;
 }
 h1 {font-size: 2rem;}
 h2 {font-size: 1.75rem;}
