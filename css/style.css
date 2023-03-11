@@ -118,7 +118,7 @@ blockquote {
 hr { border: none; border-top: 1px solid var(--color-border); width: 100%;}
 details {padding: .5rem 0; border-bottom: solid 1px var(--color-border); margin-bottom: 1rem;}
 summary {color: var(--color-headings); font-family: var(--font-family-serif); font-weight: 600;}
-summary:focus {outline: medium dashed var(--color-border);}
+summary:focus-visible {outline: medium dashed var(--color-border);}
 .bg_col {background-color: var(--color-secondary-background);}
 .padding1 {padding: 1rem;}
 
@@ -147,7 +147,7 @@ a {
 	cursor: pointer;
 }
 a:hover {text-decoration: none;}
-a:focus-visable {outline: medium dashed var(--color-border);}
+a:focus-visible {outline: medium dashed var(--color-border);}
 
 /* ------ Lists - ordered & unordered ------ */
 ul, ol {
