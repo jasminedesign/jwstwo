@@ -1,4 +1,4 @@
-{  // JasmineWS.uk Snippets v1.0.0 | MIT License | Copyright 2023 JasmineDesign.com
+{  // JasmineWS.uk Snippets v1.0.0 | MIT License | Copyright 2023 - 2024 JasmineDesign.com
    // github.com/jasminedesign/jwsone | github.com/jasminedesign/jwstwo
    "jwshead": {
     "scope": "html",
@@ -34,7 +34,7 @@
       "<div class=\"contact_panel\">",
       "</div>",
       "<div class=\"copyrights\">",
-      "<p>Copyright &copy; <time datetime=\"2023\">2023</time> </p>",
+      "<p>Copyright &copy; <time datetime=\"2024\">2024</time> </p>",
       "</div>",
       "</footer>"
     ]
