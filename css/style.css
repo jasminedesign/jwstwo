@@ -51,7 +51,7 @@
         --color-form-legend: rgb(104, 142, 163);
         --color-form-label: rgb(113, 176, 243);
         --color-form-error: rgb(237, 126, 36);
-        --icon-hover:  opacity(0.2);
+        --icon-hover: opacity(0.2);
     }
     .social_icons img {
         filter: invert(1);
