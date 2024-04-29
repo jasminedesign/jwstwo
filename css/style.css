@@ -1,4 +1,4 @@
-/* JasmineWS.uk CSS v1.0.1 | MIT License | Copyright 2023 - 2024 JasmineDesign.com
+/* JasmineWS.uk CSS v1.0.2 | MIT License | Copyright 2023 - 2024 JasmineDesign.com
    github.com/jasminedesign/jwstwo */
 
 :root {
@@ -11,6 +11,7 @@
     --color-border: rgb(0, 128, 128);
     --color-border-dark: rgb(0, 85, 85);
     --color-border-footer: rgb(211, 211, 211);
+    --color-code: rgb(128, 0, 0);
     /*---- nav & buttons ----*/    
     --color-one-nav-btn: rgb(0, 85, 85);
     --color-two-nav-btn: rgb(255, 255, 255);
@@ -38,6 +39,7 @@
         --color-links: rgb(255, 168, 98);
         --color-border: rgb(0, 128, 128);
         --color-border-dark: rgb(0, 85, 85);
+        --color-code: rgb(126, 231, 135);
         /*---- nav & buttons ----*/    
         --color-one-nav-btn: rgb(255, 255, 255);
         --color-two-nav-btn: rgb(0, 85, 85);
@@ -89,9 +91,7 @@ h4 {font-size: 1.3rem;}
 h5 {font-size: 1.2rem; font-weight: 400;}  
 h6 {font-size: 1rem; font-weight: 400;}
 p {margin: 0 0 .5rem; word-wrap: break-word;}
-.second_font { 
-    font-family: var(--font-family-serif);
-}
+.second_font {font-family: var(--font-family-serif);}
 .shouty_text {
     font-size: 1.3rem;
     font-weight: 600;
@@ -129,7 +129,7 @@ address a {color: var(--color-text); padding-bottom: .5rem;}
 
 /* ------ Code  ------ */
 pre { margin: 0; padding: 0; tab-size: 4; white-space: pre-wrap; line-height:1.5; font-family: var(--font-family-code); background-color: var(--color-secondary-background); padding: .5rem; margin: 0 0 .5rem;}
-code { font-family: var(--font-family-code); color: var(--color-col3);}
+code { font-family: var(--font-family-code); color: var(--color-code);}
 samp {font-family: var(--font-family-code);}
 kbd {
     border: 1px solid var(--color-border);
