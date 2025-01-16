@@ -1,6 +1,6 @@
-{  // JasmineWS.uk Snippets v1.0.0 | MIT License | Copyright 2023 - 2024 JasmineDesign.com
-   // github.com/jasminedesign/jwsone | github.com/jasminedesign/jwstwo
-   "jwshead": {
+{ // JasmineWS.uk Snippets v1.0.3 | MIT License | Copyright 2023 - 2025 JasmineDesign.com
+  // github.com/jasminedesign/jwsone | github.com/jasminedesign/jwstwo
+  "jwshead": {
     "scope": "html",
     "prefix": "jwshead",
     "description": "A snippet to add head",
@@ -34,7 +34,7 @@
       "<div class=\"contact_panel\">",
       "</div>",
       "<div class=\"copyrights\">",
-      "<p>Copyright &copy; <time datetime=\"2024\">2024</time> </p>",
+      "<p>Copyright &copy; <time datetime=\"2025\">2025</time> </p>",
       "</div>",
       "</footer>"
     ]
