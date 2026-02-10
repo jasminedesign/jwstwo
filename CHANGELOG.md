@@ -1,5 +1,9 @@
 # Changes to JWS Two Template
 
+## 1.0.4 (10 February 2026)
+
+* Dates Updated
+
 ## 1.0.3 (16 January 2025)
 
 * Dates Updated
