@@ -2,7 +2,7 @@
 
 ## 1.0.5 (15 February 2026)
 
-* CSS - List unordered ordered update
+* **CSS** - List unordered ordered update
 
 ## 1.0.4 (10 February 2026)
 
