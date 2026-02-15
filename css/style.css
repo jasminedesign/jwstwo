@@ -1,4 +1,4 @@
-/* JasmineWS.uk CSS v1.0.4 | MIT License | Copyright 2023 - 2026 JasmineDesign.com
+/* JasmineWS.uk CSS v1.0.5 | MIT License | Copyright 2023 - 2026 JasmineDesign.com
    github.com/jasminedesign/jwstwo */
 
 :root {
@@ -150,7 +150,7 @@ a {
 a:hover {text-decoration: none;}
 a:focus-visible {outline: medium dashed var(--color-border);}
 
-/* ------ Lists - ordered & unordered ------ */
+/* ------ Lists - unordered & ordered ------ */
 ul, ol {
     margin: .5rem 0;
     padding: 0;
@@ -171,23 +171,23 @@ li ol {
     margin: 0;
     padding: 0 0 0 1.5rem;
 }
+li ul {
+    list-style-type: circle;
+}
+li ol {
+    list-style-type: lower-roman;
+}
 li ul li,
 li ol li {
     font-size: .9rem;
     margin: 0;
     padding: 0;
 }
-li ol {
-    list-style-type: lower-roman;
-}
-li ul {
-    list-style-type: circle;
+li ul li ul {
+    list-style-type: square;
 }
 li ol li ol {
     list-style-type: lower-alpha;
-}
-li ul li ul {
-    list-style-type: square;
 }
 
 /* ------ Lists - Description ------ */
